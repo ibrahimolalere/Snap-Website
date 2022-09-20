@@ -1,6 +1,8 @@
 
 body{
     background: #171717;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -41,7 +43,6 @@ body{
     list-style: none;
     width: 100%;
     margin: 0 auto;
-    padding: 0 100px;
     align-items: center;
     
 }
@@ -103,9 +104,13 @@ body{
 h1 {
     color: white;
     font-size: 2.5rem;
+    margin: 0px;
 }
 
 p {
     color: white;
     margin-bottom: 80px;
+    margin-top: 4px;
+    font-size: 1rem;
+    line-height: 1.4;
 }
