@@ -5,7 +5,7 @@ body{
 }
 
 .container {
-    max-width: 80%;
+    max-width: 90%;
     width: 100%;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +16,7 @@ body{
 }
 
 .nav {
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     font-size: 1rem;
@@ -33,7 +33,7 @@ body{
     display: flex;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 .nav_menu {
@@ -64,19 +64,48 @@ body{
 .nav_btn {
     display: flex;
     justify-content: right;
-    width: 100%;
+    width: 30%;
+    margin-left: auto;
 }
 
 
 .button {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     text-decoration: none;
     padding: 10px 20px;
-    background: chartreuse;
+    background: #FFFC00;
     color: black;
-    border-radius: 4px;
+    border-radius: 24px;
+    width: auto;
     
     
+}
+
+
+
+
+
+
+.hero-section {
+    background-image: url("/hero\ background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 738px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+p {
+    color: white;
+    margin-bottom: 80px;
 }
